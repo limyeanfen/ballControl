@@ -88,19 +88,17 @@ cp5 = new ControlP5(this);
      ;
   
   
-  /*List l = Arrays.asList("STUDY", "TRAVEL", "WORK", "YOLO", "DIFFERENCE", "PASSION", 
+  List l = Arrays.asList("STUDY", "TRAVEL", "WORK", "YOLO", "DIFFERENCE", "PASSION", 
   "MARRY", "BORN", "DIED", "DAILY");
 
   cp5.addScrollableList("WHAT IS LIFE?")
-    .setPosition(300, 250)
-      .setSize(200, 100)
-        
-        .setBarHeight(20)
-          .setItemHeight(20)
-          
-            .addItems(l)
-              .setType(ScrollableList.DROPDOWN) // currently supported DROPDOWN and LIST
-                ;*/
+    .setPosition(80, 250)
+    .setSize(200, 100)
+    .setBarHeight(20)
+    .setItemHeight(20)    
+    .addItems(l)
+    .setType(ScrollableList.DROPDOWN)                    // no 6. UI = DropdownList
+  ;
   
 }
 
@@ -217,5 +215,3 @@ void Timer(){
 void Chart(){
   myChart.push("incoming", (sin(frameCount*next)*50));
 }
-
-
