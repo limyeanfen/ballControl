@@ -1,3 +1,9 @@
+/*
+Name: Lim Yean Fen
+ID: 1132702697  
+Submission Name: Ball Control
+*/
+
 float x;
 float y;
 float easing = 0.05; //speed follow the arrow
